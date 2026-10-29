@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+html { scroll-behavior: smooth; }
+body { background: #0f171e; font-family: "Amazon Ember", Inter, system-ui, -apple-system, sans-serif; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
